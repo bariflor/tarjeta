@@ -1,50 +1,77 @@
- /**{
-     outline: 1px solid blue;
- }*/
- #tarjeta{
-    background-image: url(https://image.freepik.com/free-photo/web-design-concepts-with-blurred-background_1134-82.jpg);
-
-    height: 350px;
-    width: 650px;
-    background: -webkit-linear-gradient(left top, pink , turquoise); 
-    /*background: -o-linear-gradient(bottom right, yellow, green); */
-    /*background: -moz-linear-gradient(bottom right, yellow, green); 
-    background: linear-gradient(to bottom right, yellow , green);*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto|Sedgwick+Ave+Display');
+*{
+/*     outline: 1px solid blue;
+*/     margin: 10px;
+     padding: 0;
+     border: 100px;
+}
+ body {
+    background-color: black;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+ }
+ 
+ #contenedor{
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    height: 490px;
+    width: 800px;
     position: relative;
-    left: 250px;
+    left: 200px;
+ }
+ .arriba{
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    left: 150px;
+    top: 80px;
+
  }
  .logo{
      position: relative;
      height: 80px;
      width: 80px;
-     bottom: 40px;
-     left: 570px;
-     top: 270px;
+     bottom: 110px;
+     left: 900px;
+     
  }
  .datos{
-     text-align: right;
-     color: black;
+     /*text-align: right;
+     color: black;*/
+     height: 490px;
+     width: 1000px;
+     position: relative;
+     background: linear-gradient(120deg, rgba(204,38,204,0) 0%,
+            rgba(19,19,19,0) 46%,
+            rgba(43,40,43,1) 35%,
+            rgba(43,40,43,1) 100%);
+
  }
  p{
+    color: white;
     text-align: right;
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
     right: 15px;
+    top: 200px;
  }
  h3{
+    color: pink;
      position: relative;
      bottom: 50px;
      right: 100px;
+     top: 100px;
+     left: 650px;
  }
  h1{
+    font-size: 48px;
+     color: pink;
      position: relative;
-     bottom: 20px;
+     bottom: 30px;
      right: 90px;
+     top: 100PX;
+     left: 700px;
  }
- .image{
-      height: 150px;
-      width: 150px;
-      position: relative;
-     bottom: 220px;
-     right: 90px;
- }
+ 
